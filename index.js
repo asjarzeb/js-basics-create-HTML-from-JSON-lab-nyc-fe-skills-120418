@@ -7,8 +7,6 @@
 // 2. Get the data for that movie
 // 3. Replace the template values with the real ones
 
-const titanicButton = document.getElementById('Titanic')
-const terminatorButton = document.getElementById('Terminator 2')
 
 function onMovieChange (movie) {
   let data = movies[movie]
@@ -63,7 +61,7 @@ function onMovieChange (movie) {
 
 titanicButton.addEventListener('click', () => onMovieChange('Titanic'))
 
-terminatorButton.addEventListener('click', () => onMovieChange('Terminator 2'))
+ 
 
 onMovieChange('Titanic')
 
